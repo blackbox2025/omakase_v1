@@ -92,6 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const randomIdTwo = getRandomValue(set_two);
     
     document.getElementById("id_check").innerHTML = 'ID #1: ' + randomIdOne;
+
+    console.log('by right should read');
     
     fetch("myText.txt")
         .then((res) => res.text())
