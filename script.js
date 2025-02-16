@@ -84,14 +84,29 @@ document.addEventListener('DOMContentLoaded', () => {
     
     var isRandom = false;
     
+    var dataArr;
+    
+    var theJsonData;
+    
     const randomIdOne = getRandomValue(set_one);
     const randomIdTwo = getRandomValue(set_two);
     
     document.getElementById("id_check").innerHTML = 'ID #1: ' + randomIdOne;
     
+    fetch("myText.txt")
+        .then((res) => res.text())
+        .then((text) => {
+            console.log(text);
+            theJsonData = JSON.parse(text);
+         })
+        .catch((e) => console.error(e));
+    
+
     function handleButtonClick(event) {
         const clickedButton = event.target;
         const parentStep = clickedButton.closest('.step');
+console.log(theJsonData);
+console.log(theJsonData.key9780735211308);
 
         if (parentStep.id === 'step2') {
             userChoices.step2 = clickedButton.textContent;
