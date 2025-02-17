@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const topicOptions = {
         'Digital': ['Artificial Intelligence & Machine Learning', 'Cyber Security', 'Data Science & Analytics', 'Internet of Things','Cloud Computing','Blockchain Technology','Software Engineering'],
         'Sustainability': ['Climate Change', 'Environmental Conservation', 'Renewable Energy', 'Sustainable Living', 'Green Economy'],
-        'Science & Engineering': ['Astronomy & Space Exploration', 'Biology & Medical Science', 'Chemistry', 'Physics','Quantum Engineering','Engineering','Mathematics'],
+        'Science & Engineering': ['Astronomy & Space Exploration', 'Biology & Medical Science', 'Chemistry', 'Physics','Quantum Computing','Engineering','Mathematics'],
         'Wellness': ['Mental Health', 'Physical Health', 'Nutrition', 'Mindfulness','Fitness'],
         'Arts': ['Visual Arts', 'Performing Arts', 'Culture & Heritage', 'Literary Arts','Film & Television','Digital Arts','Culinary Arts','Handicraft'],
         'Personal Development': ['Self-Help', 'Finance & Investment', 'Career Development', 'Time Management','Emotional Intelligence']
