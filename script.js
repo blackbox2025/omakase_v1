@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Science & Engineering': ['Astronomy & Space Exploration', 'Biology & Medical Science', 'Chemistry', 'Physics','Quantum Computing','Engineering','Mathematics'],
         'Wellness': ['Mental Health', 'Physical Health', 'Nutrition', 'Mindfulness','Fitness'],
         'Arts': ['Visual Arts', 'Performing Arts', 'Culture & Heritage', 'Literary Arts','Film & Television','Digital Arts','Culinary Arts','Handicraft'],
-        'Personal Development': ['Self-Help', 'Finance & Investment', 'Career Development', 'Time Management','Emotional Intelligence']
+        'Personal Development': ['Self-Help', 'Finance & Investment', 'Career Development', 'Time Management','Emo Intelligence']
 //        'Genre A': ['A1', 'A2', 'A3', 'A4'],
 //        'Genre B': ['B1', 'B2', 'B3', 'B4'],
 //        'Genre C': ['C1', 'C2', 'C3', 'C4'],
